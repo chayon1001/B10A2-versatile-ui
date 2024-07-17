@@ -21,7 +21,7 @@ body {
 /* navber styles start here */
 .nav-container {
     max-width: 80%;
-    margin: 20px auto;
+    margin: 30px auto;
     /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
@@ -69,6 +69,22 @@ body {
 
 }
 
+.menu-bar{
+    display: none;
+}
+
+
+
 /* navber styles end here */
 
 /* header section styles end here */
+
+@media screen and (max-width:576px) {
+    .nav-box{
+        display: none;
+    }
+    .menu-bar{
+        display: block;
+    }
+    
+}
