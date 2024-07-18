@@ -17,7 +17,7 @@ body {
     height: 715px;
     background-color: rgb(0, 0, 0, 0.9);
     background-blend-mode: overlay;
-    
+
 }
 
 /* navber styles start here */
@@ -150,7 +150,8 @@ body {
 
 }
 
-.banner-circle h4 , .another-circle h4 {
+.banner-circle h4,
+.another-circle h4 {
     color: rgb(250, 250, 249);
     font-family: Inter;
     font-size: 1.8rem;
@@ -158,14 +159,16 @@ body {
     text-align: center;
 }
 
-.banner-circle p, .another-circle p {
+.banner-circle p,
+.another-circle p {
     color: rgba(239, 237, 232, 0.65);
     font-family: Inter;
     font-size: 1rem;
     font-weight: 400;
     text-align: center;
 }
-.another-circle{
+
+.another-circle {
     justify-content: center;
     align-items: center;
     width: 180px;
@@ -180,6 +183,11 @@ body {
 
 /* header section styles end here */
 
+
+
+
+
+/* responsive for mobile device */
 @media screen and (max-width:576px) {
     .nav-box {
         display: none;
@@ -189,4 +197,42 @@ body {
         display: block;
     }
 
+    /* banner section reponsive here */
+    .header-main {
+        height: auto;
+    }
+
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .right-banner img {
+        width: 100%;
+
+    }
+
+    .banner-heading {
+        font-size: 2rem;
+    }
+
+    .primary-btn,
+    .secondary-btn {
+        padding: 10px 20px;
+    }
+    .secondary-btn{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .circle {
+        max-width: 50%;
+        top: 800px;
+        right: 150px;
+    }
+
+    .another-circle {
+        max-width: 50%;
+        top: 500px;
+        right: 50px;
+    }
 }
