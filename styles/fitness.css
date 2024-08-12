@@ -330,8 +330,6 @@ body {
     padding-top: 30px;
     height: 487px;
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     margin-top: 30px;
 
 }
@@ -340,8 +338,6 @@ body {
     width: 50%;
     margin-left: 150px;
     margin-top: 30px;
-    
-   
 
 
 }
@@ -371,7 +367,6 @@ th {
 
 .bmi-right {
     width: 50%;
-    /* border: 2px solid gray; */
     margin-left: 150px;
     margin-top: 30px;
 }
@@ -546,6 +541,46 @@ th {
         text-align: center;
         margin-bottom: 30px;
     }
+
+    /* bmi calculator responsive start here */
+    .bmi-container {
+      flex-direction: column;
+      height: auto;
+    
+    }
+    .bmi-left {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+    .bmi-right {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+    .first-select input {
+        padding: 10px 4px 10px 5px;
+     
+    
+    }
+    .first-main {
+        margin-left: 5px;
+    }
+    .second-select input {
+        padding: 10px 4px 10px 5px;
+    
+    }
+    .second-select select {
+        padding: 10px 120px 10px 5px;
+        margin-left: 5px;
+       
+    }
+    .last-select select {
+        padding: 10px 220px 10px 5px;
+       
+    }
+    
+    /* bmi calculator responsive start here */
 
 
 }
