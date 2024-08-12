@@ -312,13 +312,156 @@ body {
 }
 
 .right-run img {
-    width: 366px;
+    /* width: 366px; */
+    width: 100%;
     height: 312px;
+    object-fit: cover;
     border-radius: 15px;
 }
 
 /* run container styles end here */
 
+
+/* bmi calculator styles start here */
+.bmi-container {
+    max-width: 100%;
+    background-color: rgb(34, 34, 34);
+    background-blend-mode: overlay;
+    padding-top: 30px;
+    height: 487px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-top: 30px;
+
+}
+
+.bmi-left {
+    width: 50%;
+    margin-left: 150px;
+    margin-top: 30px;
+    
+   
+
+
+}
+
+.calculator-head {
+    font-size: 1.8rem;
+    color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+
+}
+
+.basic-table {
+    border-collapse: collapse;
+}
+
+.basic-table td,
+th {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.basic-table th {
+    text-align: left;
+    color:whitesmoke;
+}
+
+.bmi-right {
+    width: 50%;
+    /* border: 2px solid gray; */
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.bmi-right h3 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.bmi-right p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.first-select input {
+    padding: 10px 20px 10px 5px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    /* color: whitesmoke; */
+    font-size: 1rem;
+    margin-top: 20px;
+
+}
+
+.first-main {
+    margin-left: 10px;
+}
+
+.first-select ::placeholder {
+    color: white;
+}
+
+.second-select input {
+    padding: 10px 20px 10px 5px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    /* color: whitesmoke; */
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.second-select ::placeholder {
+    color: white;
+}
+
+.second-select select {
+    padding: 10px 140px 10px 5px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    /* color: whitesmoke; */
+    font-size: 1rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.last-select select {
+    padding: 10px 260px 10px 5px;
+    border-radius: 8px;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    /* color: whitesmoke; */
+    font-size: 1rem;
+
+    border: none;
+}
+
+.bmi-btn {
+    margin-top: 30px;
+    padding: 16px 50px 16px 50px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: white;
+    font-size: 1rem;
+}
+
+
+/* bmi calculator styles end here */
 
 
 /* responsive for mobile device */
@@ -392,14 +535,14 @@ body {
     }
 
     /* run container responsive start here */
-    .middle-run{
+    .middle-run {
         flex-direction: column;
         max-width: 80%;
         height: auto;
-    
+
     }
 
-    .left-run{
+    .left-run {
         text-align: center;
         margin-bottom: 30px;
     }
