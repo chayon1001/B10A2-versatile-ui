@@ -322,7 +322,36 @@ body {
 /* run container styles end here */
 
 
+
+
 /* bmi calculator styles start here */
+
+.bmi-calculator {
+    max-width: 100%;
+    background-color: rgb(0, 0, 0, 0.9);
+    background-blend-mode: overlay;
+}
+
+.bmi-head {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.bmi-para {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 585px;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+
 .bmi-container {
     max-width: 100%;
     background-color: rgb(34, 34, 34);
@@ -330,7 +359,7 @@ body {
     padding-top: 30px;
     height: 487px;
     display: flex;
-    margin-top: 30px;
+    padding-top: 30px;
 
 }
 
@@ -453,7 +482,7 @@ th {
     background: rgb(230, 83, 60);
     color: white;
     font-size: 1rem;
-    border:none;
+    border: none;
 }
 
 
@@ -465,6 +494,7 @@ th {
     height: auto;
     background-color: rgb(0, 0, 0, 0.9);
     background-blend-mode: overlay;
+    padding-bottom: 50px;
 
 }
 
@@ -474,7 +504,7 @@ th {
     font-size: 3rem;
     font-weight: 900;
     text-align: center;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 .meet-para {
@@ -493,7 +523,7 @@ th {
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 50px;
 }
 
@@ -501,30 +531,35 @@ th {
     margin: 20px;
     position: relative;
 }
-.first-trainer{
+
+.first-trainer {
     position: absolute;
     bottom: 10%;
     left: 10%;
 }
-.first-trainer h3{
+
+.first-trainer h3 {
     color: aliceblue;
     font-size: 1.2rem;
 }
-.first-trainer p{
+
+.first-trainer p {
     color: gray;
 }
-.first-meet img{
+
+.first-meet img {
     width: 100%;
     height: 272px;
     border-radius: 20px;
-   
+
 }
 
 .second-meet {
     margin: 20px;
     position: relative;
 }
-.second-meet img{
+
+.second-meet img {
     width: 100%;
     height: 272px;
     border-radius: 20px;
@@ -534,11 +569,12 @@ th {
     margin: 20px;
     position: relative;
 }
-.third-meet img{
+
+.third-meet img {
     width: 100%;
     height: 272px;
     border-radius: 20px;
-    
+
 }
 
 .fourth-meet {
@@ -546,13 +582,14 @@ th {
     position: relative;
 }
 
-.fourth-meet img{
+.fourth-meet img {
     width: 100%;
     height: 272px;
     border-radius: 20px;
 }
-.fourth-trainer{
-    position:absolute;
+
+.fourth-trainer {
+    position: absolute;
     bottom: 10%;
 }
 
@@ -560,7 +597,8 @@ th {
     margin: 5px 20px;
     position: relative;
 }
-.fifth-meet img{
+
+.fifth-meet img {
     width: 100%;
     height: 272px;
     border-radius: 20px;
@@ -572,7 +610,8 @@ th {
     margin: 5px 20px;
     position: relative;
 }
-.sixth-meet img{
+
+.sixth-meet img {
     width: 100%;
     height: 272px;
     border-radius: 20px;
@@ -580,7 +619,110 @@ th {
 
 /* meet our trainer styles end here */
 
+/* footer section styles start here */
+.footer-container {
+    max-width: 100%;
+    height: 489px;
+    border: 2px solid red;
+    background-color: rgb(34, 34, 34);
+    background-blend-mode: overlay;
 
+}
+
+.footer-part {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.first-foot {
+    margin-top: 50px;
+    width: 420px;
+
+}
+
+.first-foot h3 {
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 3.7rem;
+    font-weight: 800;
+}
+
+.first-foot p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
+    line-height: 24px;
+}
+
+.second-foot {
+    width: 250px;
+    margin-left: 250px;
+    margin-top: 50px;
+
+}
+
+.second-foot h3 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.second-foot h5 {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+
+.third-foot {
+    width: 250px;
+    margin-left: 130px;
+    margin-top: 50px;
+
+}
+
+.third-foot h3 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.8rem;
+    font-weight: 700;
+
+}
+
+.third-foot h5 {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.final-foot span>hr {
+    width: 80%;
+    margin: 0 auto;
+    /* border: 2px solid green; */
+    margin-top: 70px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.final-foot p {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* footer section styles end here */
 
 
 
@@ -669,6 +811,11 @@ th {
     }
 
     /* bmi calculator responsive start here */
+    .bmi-para {
+        margin-left: 0px;
+        text-align: center;
+    }
+
     .bmi-container {
         flex-direction: column;
         height: auto;
@@ -688,11 +835,12 @@ th {
         margin-top: 30px;
         margin-left: 10px;
     }
+
     .bmi-right p {
-       
+
         font-size: 0.8rem;
         padding: 5px;
-      
+
     }
 
     .first-select input {
@@ -703,7 +851,7 @@ th {
 
     .first-main {
         margin-left: 5px;
-      
+
     }
 
     .second-select input {
@@ -721,7 +869,7 @@ th {
         padding: 10px 220px 10px 5px;
 
     }
-    
+
     /* bmi calculator responsive end here */
 
     /* meet our team section responsive start here */
@@ -729,12 +877,10 @@ th {
     .card-meet {
         max-width: 100%;
         height: auto;
-        grid-template-columns: repeat(1,1fr);
-        
+        grid-template-columns: repeat(1, 1fr);
+
     }
-    .meet-heading {
-        padding-top: 50px;
-    }
+
     /* meet our team section responsive start here */
 
 
