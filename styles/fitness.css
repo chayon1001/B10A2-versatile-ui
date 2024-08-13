@@ -623,7 +623,6 @@ th {
 .footer-container {
     max-width: 100%;
     height: 489px;
-    border: 2px solid red;
     background-color: rgb(34, 34, 34);
     background-blend-mode: overlay;
 
@@ -881,7 +880,36 @@ th {
 
     }
 
-    /* meet our team section responsive start here */
+    /* meet our team section responsive end here */
+    
+    /* footer section responsive start here */
+    .footer-container {
+       
+        height: auto;
+        
+    }
+    .footer-part {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+    
+    .second-foot {
+      
+        margin-left: 30px;
+       
+    
+    }
+    
+    .third-foot {
+       
+        margin-left: 30px;
+    
+    }
+    
+    
+
+    /* footer section responsive end here */
 
 
 }
