@@ -883,6 +883,30 @@ th {
         margin-bottom: 30px;
     }
 
+    /* our services section responsive start here */
+    .services-container {
+        padding-top: 30px;
+        padding-bottom: 50px;
+        overflow-x: hidden;
+      }
+    
+    
+      .services-card {
+        width: 90%;
+        height: auto; /* Adjust height to auto for better responsiveness */
+        grid-template-columns: repeat(1,1fr); /* Single column layout */
+        margin-top: 30px;
+      }
+    
+      .main-card {
+        height: auto; /* Adjust height to auto for content flexibility */
+        padding: 15px;
+      }
+    
+    
+    
+    /* our services section responsive end here */
+
     /* bmi calculator responsive start here */
     .bmi-para {
         margin-left: 0px;
