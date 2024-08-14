@@ -26,7 +26,6 @@ body {
 .nav-container {
     max-width: 80%;
     margin: 0 auto;
-    /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -87,7 +86,7 @@ body {
     margin: 30px auto;
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
+   
 }
 
 .banner-heading {
@@ -281,7 +280,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 2px solid red; */
     border-radius: 18px;
     background: rgb(34, 34, 34);
     padding: 30px;
@@ -312,11 +310,13 @@ body {
 }
 
 .right-run img {
-    /* width: 366px; */
     width: 100%;
-    height: 312px;
+    height: 350px;
     object-fit: cover;
     border-radius: 15px;
+
+   
+
 }
 
 /* run container styles end here */
