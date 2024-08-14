@@ -321,7 +321,81 @@ body {
 
 /* run container styles end here */
 
+/* our services section styles start here */
+.services-container{
+    max-width: 100%;
+    background-color: rgb(0, 0, 0, 0.9);
+    background-blend-mode: overlay;
+  
+    padding-top: 50px;
+    padding-bottom:70px ;
+}
+.services-container h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+.services-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+}
+.services-card{
+    width: 80%;
+    height:1000px ;
+    margin: 0 auto;
+    /* border: 2px solid green; */
+    background-color: rgb(34, 34, 34);
+    background-blend-mode: overlay;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    
+}
+.main-card{
+    height: 430px;
+    /* border: 2px solid yellow; */
+    box-shadow: 4px 4px 8px rgba(245, 245, 245, 0.523);
+    padding: 20px;
+    border-radius: 20px;
+}
+.main-card img{
+    width: 100%;
+    height: 280px;
+    border-radius: 20px;
+    
 
+    
+}
+.card-detailes h4{
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+   
+
+}
+.card-detailes span{
+    color:gold;
+   
+}
+.card-detailes p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+/* our services section styles end here */
 
 
 /* bmi calculator styles start here */
