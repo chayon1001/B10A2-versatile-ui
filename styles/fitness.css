@@ -882,6 +882,14 @@ th {
         text-align: center;
         margin-bottom: 30px;
     }
+    .right-run img {
+        
+        height: auto;
+      
+    
+       
+    
+    }
 
     /* our services section responsive start here */
     .services-container {
